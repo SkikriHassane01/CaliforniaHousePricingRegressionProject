@@ -1,4 +1,6 @@
 # Linear Regression Web Service
+
+[you can see the project live here](https://californiahousepricing.azurewebsites.net/)
 ## How does the project look?
 
 <img width="349" alt="image" src="https://github.com/HassaneSkikri/CaliforniaHousePricingEndToEndProject/assets/141918886/91f538a5-c3ea-444d-a07c-65dffdf52f5a">
