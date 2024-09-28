@@ -24,6 +24,21 @@
       <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
  </div>
- {{prediction_text}}
+  <div class="result">
+    <h2>Prediction Result</h2>
+    <div class="prediction-box">
+        <p>{{ prediction_text }}</p>
+    </div>
+
+    <h3>Input Data</h3>
+    <div class="input_data">
+      {% for key, value in request.form.items()%}
+      <div class="box">
+        <h4> {{key}}</h4>
+        <h4> {{value}}</h4>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </body>
 </html>
